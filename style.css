@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+    
+    body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#83A2FF ;
+    }
+    .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color:#FFF78A;
+    border-radius: 8px;
+    box-shadow: 2px 6px 30px 0px rgba(0,0,0,0.75);
+    }
+    h1 {
+    font-family:"Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;    
+    text-align: center;
+    color: #FF6C22;
+    }
+    .form, .search {
+    margin-bottom: 20px;
+    }
+    input[type="text"], input[type="number"], button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    }
+    button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    }
+    button:hover {
+    background-color: #0b680f;
+    }
+    #bookList {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    }
+    .book {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #eee;
+    background-color: #f9f9f9;
+    }
